@@ -17,6 +17,7 @@ class Queue:
     def size(self):
         return len(self.queue)
 
+
 queue = Queue()
 queue.enqueue(1)
 queue.enqueue(2)
