@@ -36,7 +36,7 @@ class Stack:
                         raise ValueError('Ошибка ввода')
 
                 except IndexError:
-                    raise IndexError('некорректное значение')
+                    raise IndexError('Некорректное значение')
                 
         if not self.is_empty(): 
             return self.stack.pop()
