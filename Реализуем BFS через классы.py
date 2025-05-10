@@ -19,7 +19,7 @@ class Graph:
         self._root = root
         
     def dfs(self):
-        visited = [] #пройденые вершины
+        visited = [] #пройденные вершины
         stack = [self._root] # стек для вершин соседей
         
         while stack:
@@ -34,7 +34,7 @@ class Graph:
         return [node.value for node in visited]
 
     def bfs(self):
-        visited = set()  #пройденые вершины
+        visited = set()  #пройденные вершины
         stack = deque([self._root]) # стек для вершин соседей
 
         while stack:
