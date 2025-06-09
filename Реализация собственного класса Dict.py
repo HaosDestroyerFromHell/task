@@ -48,7 +48,7 @@ my_dict['age'] = 30
 my_dict['city'] = 'Moscow'
 print(my_dict['name'])  # Вернет 'Alice'
 print('land' in my_dict)  # Вернет False
-del my_dict['land']
+del my_dict['age']
 print(my_dict.keys())  
 print(my_dict.values()) 
 print('Строковое представление словаря:', my_dict)
