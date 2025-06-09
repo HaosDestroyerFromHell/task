@@ -1,5 +1,4 @@
 def bubble_sort(arr):
-    # ваш код
     length = len(arr)
     for i in range(length):
         for x in range(0, length - i - 1):
